@@ -1,16 +1,51 @@
 <html>
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       body {
-        background-color: #F7FAFC;
+        background-color: white;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+        color: #425466;
+        background-color: #F7FAFC;
+      }
+
+      .cap-logo {
+        width: 250px;
+      }
+
+      .message {
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 29px;
+        padding: 32px 80px;
+        max-width: 500px;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 14px;
+      }
+
+      h1 {
+        color: #27272E;
+        font-weight: 500;
+        font-size: 24px;
       }
     </style>
   </head>
   <body>
-    Test Maintenance Page
-    [Logo here]
+    <div class='message'>
+      <h1>Application Error</h1>
+      <p>Unfortunately, our app has encountered an unexpected error!<br/>Please go back, or try again later.</p>
+      <img src='assets/cap-large.jpg' alt='cap-logo' class='cap-logo' />
+    </div>
   </body>
 </html>
